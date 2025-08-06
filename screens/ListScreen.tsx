@@ -20,7 +20,7 @@ const ListScreen = () => {
             </Pressable>
 
 
-            {/* THIS WILL LOOP FOR EACH ITEM */}
+            {/* THIS WILL LOOP FOR EACH ITEM - scrollview or flatlist */}
             <TouchableOpacity style={styles.card} onPress={() => navigation.navigate("Details")}>
                 <Text>Title</Text>
                 <AntDesign name="star" size={24} color="orange" />
